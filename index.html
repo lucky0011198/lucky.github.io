@@ -257,8 +257,6 @@
         <h1>Students list </h1>
         <table id="tableCompany">
 		<tr>
-			<td></td>
-			<td> Todays Date :</td>
 			<td id ="date"> </td>
 			
 		</tr>
@@ -617,7 +615,7 @@
           var day = d.getDay();
           var dayarr = ["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"];
           day = dayarr[day];
-          document.getElementById("date").innerHTML = day + " " + date + " " + month + " " + year;
+          document.getElementById("date").innerHTML ="Todays Date :"+ day + " " + date + " " + month + " " + year;
         }
         function lucky() {
           b++;
@@ -751,17 +749,12 @@
           if (b == 57) { document.getElementById("57").innerHTML = list[57]; }
           if (b == 58) { document.getElementById("58").innerHTML = list[58]; }
           if (b == 59) { document.getElementById("59").innerHTML = list[59]; }
-
         }
-
         function lucy() {
           roll = document.getElementById("name").value;
           document.getElementById("r").innerHTML = list[roll]
 
         }
-
-
       </script>
   </body>
-
 </html>
