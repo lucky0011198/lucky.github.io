@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.profile{
+    width: 100%;
+    background-color: #2ECAB6;
+    display: block;
+    margin: 0 auto;
+}
+
+.profile .left-home{
+    color: #fff;
+    font-weight: 600;
+}
+
+.profile .left-home i{
+    margin: 10px;
+    cursor: pointer;
+}
+
+.profile .lol{
+    width: 98%;
+    display: block;
+    margin: auto;
+}
+
+.profile .row{
+    width: 100%;
+}
+
+.profile .right-home .item{
+    float: right;
+    margin-top: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.profile .right-home .item button{
+    float: right;
+    width: 100px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+}
+
+.profile .profile-pic{
+    text-align: center;
+    color: #fff; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.profile .profile-pic p{
+    line-height: 0.6em;
+    font-size: large;
+}
+
+/***********************************************************/
+
+.sec-2{
+    margin-top: 5%;
+}
+
+.sec-2 nav{
+    float: left; 
+    clear: both;
+    width: 90%;
+    margin: 0 auto;
+    background: #eee;
+    font-size:24px;
+}
+  
+.sec-2 nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+  
+.sec-2 nav li{
+    float: none; 
+    width: 100%;
+}
+  
+.sec-2 nav li a{
+    display: block; 
+    width: 100%; 
+    padding: 20px; 
+    border-left: 5px solid; 
+    position: relative; 
+    z-index: 2;
+    text-decoration: none;
+    color: #444;
+    box-sizing: border-box;  
+    -moz-box-sizing: border-box;  
+    -webkit-box-sizing: border-box; 
+}
+      
+nav li a:hover{ border-bottom: 0px; color: #fff;}
+nav li:first-child a{ border-left: 10px solid #3498db; }
+nav li:nth-child(2) a{ border-left: 10px solid#3498db; }
+nav li:nth-child(3) a{ border-left: 10px solid #3498db; }
+nav li:nth-child(4) a{ border-left: 10px solid#3498db; }
+nav li:last-child a{ border-left: 10px solid #3498db; }
+  
+.sec-2 nav li a:after { 
+    content: "";
+    height: 100%; 
+    left: 0; 
+    top: 0; 
+    width: 0px;  
+    position: absolute; 
+    transition: all 0.3s ease 0s; 
+    -webkit-transition: all 0.3s ease 0s; 
+    z-index: -1;
+}
+nav li a:hover:after{ width: 100%; }
+nav li:first-child a:after{ background: #2ECAB6; }
+nav li:nth-child(2) a:after{ background:  #2ECAB6; }
+nav li:nth-child(3) a:after{ background: #2ECAB6; }
+nav li:nth-child(4) a:after{ background:  #2ECAB6; }
+nav li:last-child a:after{ background: #2ECAB6; }
+  
+}
+  

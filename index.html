@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css"
+    integrity="sha384-wxqG4glGB3nlqX0bi23nmgwCSjWIW13BdLUEYC4VIMehfbcro/ATkyDsF/AbIOVe" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>My Account</title>
+</head>
+<body>
+    <script>
+        $(document).ready(function(){
+            $("#first1").hide();
+            $("#first2").hide();
+            $("#first3").hide();
+            $("#first4").hide();
+            $("#first5").hide();
+
+            $("#1").click(function(){
+                $("#first2").hide();
+                $("#first3").hide();
+                $("#first4").hide();
+                $("#first5").hide();
+                $("#first1").hide();
+                $("#first").show();
+
+            });
+
+            $("#2").click(function(){
+                $("#first2").hide();
+                $("#first3").hide();
+                $("#first4").hide();
+                $("#first5").hide();
+                $("#first").hide();
+              $("#first1").show();
+            });
+
+            $("#3").click(function(){
+                $("#first1").hide();
+                $("#first2").show();
+                $("#first3").hide();
+                $("#first4").hide();
+                $("#first5").hide();
+                $("#first").hide();
+              });
+
+
+              $("#4").click(function(){
+                $("#first1").hide();
+                $("#first2").hide();
+                $("#first3").show();
+                $("#first4").hide();
+                $("#first5").hide();
+                $("#first").hide();
+              });
+              $("#5").click(function(){
+                $("#first1").hide();
+                $("#first2").hide();
+                $("#first3").hide();
+                $("#first4").show();
+                $("#first5").hide();
+                $("#first").hide();
+              });
+
+
+          });
+    </script>
+    <section class="profile">
+        <div class="lol">
+            <div class="row">
+                <div class="col left-home">
+                    <i class="fas fa-arrow-left" aria-hidden="true"></i> My Account
+                </div>
+                <div class="col right-home">
+                    <div class="item">
+                        <button>Logout <i class="fas fa-sign-out-alt"></i></button>
+                       <!-- <i class="fas fa-home" aria-hidden="true"></i> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-pic">
+                <i class="far fa-user-circle fa-7x" aria-hidden="true"></i>
+                <h3>Muhammad Faiz</h3>
+                <p>9775046673</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <nav class="sticky-top">
+                        <ul>
+                          <li><a href="#" id="1">My Bookings</a></li>
+                          <li><a href="#"id="2">My Appointments</a></li>
+                          <li><a href="#"id="3"> 24/7 Help</a></li>
+                          <li><a href="#"id="4">Sheltown Verified</a></li>
+                          <li><a href="#"id="5">Transaction Details</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-7" id="first">
+                    1111111111111111111111111Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit commodi vel, dolore impedit veritatis rem veniam illum dolor, fugit corrupti ducimus aperiam amet! Ducimus saepe voluptas adipisci quia et totam.
+                </div>
+                <div class="col-lg-7" id="first1">
+                   222222222222222jdbLorem ipsum dolor sit amet consectetur adipisicing elit. Velit commodi vel, dolore impedit veritatis rem veniam illum dolor, fugit corrupti ducimus aperiam amet! Ducimus saepe voluptas adipisci quia et totam.
+                </div>
+                <div class="col-lg-7" id="first2">
+                    3333333333333333333jdbLorem ipsum dolor sit amet consectetur adipisicing elit. Velit commodi vel, dolore impedit veritatis rem veniam illum dolor, fugit corrupti ducimus aperiam amet! Ducimus saepe voluptas adipisci quia et totam.
+               </div>
+               <div class="col-lg-7" id="first3">
+                44444444444444444444444444dbLorem ipsum dolor sit amet consectetur adipisicing elit. Velit commodi vel, dolore impedit veritatis rem veniam illum dolor, fugit corrupti ducimus aperiam amet! Ducimus saepe voluptas adipisci quia et totam.
+           </div>
+           <div class="col-lg-7" id="first4">
+            5555555555555555555 amet consectetur adipisicing elit. Velit commodi vel, dolore impedit veritatis rem veniam illum dolor, fugit corrupti ducimus aperiam amet! Ducimus saepe voluptas adipisci quia et totam.
+       </div>
+       <div class="col-lg-7" id="first5">
+        666666666666666666666ipsum dolor sit amet consectetur adipisicing elit. Velit commodi vel, dolore impedit veritatis rem veniam illum dolor, fugit corrupti ducimus aperiam amet! Ducimus saepe voluptas adipisci quia et totam.
+   </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
